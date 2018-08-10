@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		5904723821184158003417C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5904723721184158003417C0 /* AppDelegate.swift */; };
-		5904723A21184158003417C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5904723921184158003417C0 /* ViewController.swift */; };
+		5904723A21184158003417C0 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5904723921184158003417C0 /* HomeVC.swift */; };
 		5904723D21184158003417C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5904723B21184158003417C0 /* Main.storyboard */; };
 		5904723F21184159003417C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5904723E21184159003417C0 /* Assets.xcassets */; };
 		5904724221184159003417C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5904724021184159003417C0 /* LaunchScreen.storyboard */; };
+		590472512118419B003417C0 /* GravityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590472502118419B003417C0 /* GravityVC.swift */; };
+		59047253211841A2003417C0 /* PushVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59047252211841A2003417C0 /* PushVC.swift */; };
+		59047255211841AB003417C0 /* CollisionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59047254211841AB003417C0 /* CollisionVC.swift */; };
+		59047257211841B8003417C0 /* SnapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59047256211841B8003417C0 /* SnapVC.swift */; };
+		59047259211841C3003417C0 /* AttachmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59047258211841C3003417C0 /* AttachmentVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5904723421184158003417C0 /* UIDynamics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIDynamics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5904723721184158003417C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5904723921184158003417C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5904723921184158003417C0 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		5904723C21184158003417C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5904723E21184159003417C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5904724121184159003417C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5904724321184159003417C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		590472502118419B003417C0 /* GravityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravityVC.swift; sourceTree = "<group>"; };
+		59047252211841A2003417C0 /* PushVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushVC.swift; sourceTree = "<group>"; };
+		59047254211841AB003417C0 /* CollisionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionVC.swift; sourceTree = "<group>"; };
+		59047256211841B8003417C0 /* SnapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapVC.swift; sourceTree = "<group>"; };
+		59047258211841C3003417C0 /* AttachmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,43 @@
 		5904723621184158003417C0 /* UIDynamics */ = {
 			isa = PBXGroup;
 			children = (
-				5904723721184158003417C0 /* AppDelegate.swift */,
-				5904723921184158003417C0 /* ViewController.swift */,
-				5904723B21184158003417C0 /* Main.storyboard */,
-				5904723E21184159003417C0 /* Assets.xcassets */,
-				5904724021184159003417C0 /* LaunchScreen.storyboard */,
+				590472492118416C003417C0 /* Assets */,
+				5904724E2118416D003417C0 /* Storyboard */,
+				5904724F2118416D003417C0 /* Classes */,
 				5904724321184159003417C0 /* Info.plist */,
 			);
 			path = UIDynamics;
+			sourceTree = "<group>";
+		};
+		590472492118416C003417C0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5904723E21184159003417C0 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		5904724E2118416D003417C0 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5904723B21184158003417C0 /* Main.storyboard */,
+				5904724021184159003417C0 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		5904724F2118416D003417C0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5904723721184158003417C0 /* AppDelegate.swift */,
+				5904723921184158003417C0 /* HomeVC.swift */,
+				590472502118419B003417C0 /* GravityVC.swift */,
+				59047252211841A2003417C0 /* PushVC.swift */,
+				59047254211841AB003417C0 /* CollisionVC.swift */,
+				59047256211841B8003417C0 /* SnapVC.swift */,
+				59047258211841C3003417C0 /* AttachmentVC.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5904723A21184158003417C0 /* ViewController.swift in Sources */,
+				59047259211841C3003417C0 /* AttachmentVC.swift in Sources */,
+				59047253211841A2003417C0 /* PushVC.swift in Sources */,
+				590472512118419B003417C0 /* GravityVC.swift in Sources */,
+				59047257211841B8003417C0 /* SnapVC.swift in Sources */,
+				5904723A21184158003417C0 /* HomeVC.swift in Sources */,
 				5904723821184158003417C0 /* AppDelegate.swift in Sources */,
+				59047255211841AB003417C0 /* CollisionVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
