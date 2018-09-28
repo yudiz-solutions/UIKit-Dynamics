@@ -11,9 +11,9 @@ I've created several screens to demonstrate each primitive behaviors in single s
 ##### 3.Types of primitive behaviors
 
 ## Preview
-![homevc](https://user-images.githubusercontent.com/20698710/43943606-c67e9f64-9c99-11e8-9c4b-04d73e5093aa.png)
-![gravity](https://user-images.githubusercontent.com/20698710/43943445-40e3cf50-9c99-11e8-8f39-152a94fa9ff6.gif)
-![push](https://user-images.githubusercontent.com/20698710/43943463-540c4364-9c99-11e8-80ba-a6dd7a34d421.gif)
-![collision](https://user-images.githubusercontent.com/20698710/43943480-5dc65854-9c99-11e8-9a6c-d84339b00cb6.gif)
-![snap](https://user-images.githubusercontent.com/20698710/43943495-65b11194-9c99-11e8-8bbe-ae35a05591f9.gif)
-![attachment](https://user-images.githubusercontent.com/20698710/43943507-71bcc0a0-9c99-11e8-9ebe-676edfbde0a6.gif)
+![home](https://user-images.githubusercontent.com/20698710/46187713-8562dd80-c302-11e8-9f44-9ff25d7c88e4.png)
+![gravitybehavior](https://user-images.githubusercontent.com/20698710/46187720-93b0f980-c302-11e8-9052-693dfe9593e6.gif)
+![pushbehavior](https://user-images.githubusercontent.com/20698710/46187731-a3c8d900-c302-11e8-8ed0-958fff7b78e8.gif)
+![collisionbehavior](https://user-images.githubusercontent.com/20698710/46187734-a62b3300-c302-11e8-8d78-520e515d5231.gif)
+![snapbehavior](https://user-images.githubusercontent.com/20698710/46187738-a88d8d00-c302-11e8-8def-e2c3267298a5.gif)
+![attachmentbehavior](https://user-images.githubusercontent.com/20698710/46187740-aa575080-c302-11e8-8fd5-127b9efb8845.gif)
